@@ -46,7 +46,8 @@ function doesObjectsIntersect(charObj, coinObj) {
 		charHeight + charYPos > coinYPos
 	) {
 		// collision detected!
-		console.log('collision detected!');
+		let score = document.getElementById('numOfCoinsCollected');
+		score.innerText = parseInt(score.innerText) + 1;
 	}
 
 	//     rect1.x < rect2.x + rect2.w &&
