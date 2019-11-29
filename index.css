@@ -1,3 +1,21 @@
 #character {
 	width: 100px;
+	margin: 0 0 0 -29px;
+}
+
+#character-hitbox {
+	background-color: red;
+	width: 49px;
+	height: 73px;
+	position: absolute;
+}
+#coin {
+	width: 200px;
+	margin: -38px 0 0 -86px;
+}
+
+#coin-hitbox {
+	width: 28px;
+	height: 29px;
+	overflow: hidden;
 }
