@@ -30,8 +30,6 @@ document.addEventListener('keydown', (e) => {
 
 function doesObjectsIntersect(charObj, coinObj) {
 	let charXPos = parseInt(charObj.style.left, 10);
-
-	console.log(parseInt(charObj.style.left, 10));
 	let charYPos = parseInt(charObj.style.top, 10);
 	let charWidth = charObj.offsetWidth;
 	let charHeight = charObj.offsetHeight;
