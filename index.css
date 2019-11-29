@@ -1,12 +1,11 @@
 #character {
-	width: 100px;
-	margin: 0 0 0 -29px;
+	width: 200px;
+	margin: -31px 0px 0px -76px;
 }
 
 #character-hitbox {
-	background-color: red;
-	width: 49px;
-	height: 73px;
+	width: 33px;
+	height: 88px;
 	position: absolute;
 }
 #coin {
