@@ -47,11 +47,11 @@ function doesObjectsIntersect(charObj, coinObj) {
 	) {
 		// collision detected!
 		let score = document.getElementById('numOfCoinsCollected');
-		score.innerText = parseInt(score.innerText) + 1;
-	}
+		let screenWidth = window.innerWidth;
+		let screenHeight = window.innerHeight;
 
-	//     rect1.x < rect2.x + rect2.w &&
-	//     rect1.x + rect1.w > rect2.x &&
-	//     rect1.y < rect2.y + rect2.h &&
-	//     rect1.h + rect1.y > rect2.y
+		score.innerText = parseInt(score.innerText) + 1;
+		coinObj.style.left = Math.floor(Math.random() * (screenWidth - 100)) + 'px';
+		coinObj.style.top = Math.floor(Math.random() * (screenHeight - 100) + 100) + 'px';
+	}
 }
