@@ -23,8 +23,6 @@ document.addEventListener('keydown', (e) => {
 			characterHitBox.style.left = parseInt(characterHitBox.style.left, 10) + characterSpeed + 'px';
 			doesObjectsIntersect(characterHitBox, coinHitBox);
 			break;
-		default:
-			console.log("I don't know what to do with that key!");
 	}
 });
 
